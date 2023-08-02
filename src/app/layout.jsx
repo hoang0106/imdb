@@ -3,10 +3,12 @@ import './globals.css'
 import Providers from './Providers'
 import NavBar from '@/components/NavBar'
 import SearchBox from '@/components/SearchBox'
+import Head from './head'
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head />
       <body>
         <Providers>
           {/* Header */}
